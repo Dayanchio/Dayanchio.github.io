@@ -6,7 +6,7 @@
 }
 
 :root {
-  --accent: #7c3aed;
+  --accent: #9c5703;
   --background: #232121;
   --text: #ddd0d0;
   --hover: #a39292;
@@ -26,7 +26,7 @@ section {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--background);
   color: var(--text);
 }
@@ -385,9 +385,6 @@ button:focus-visible {
     display: block;
   }
 
-  #home {
-    font-size: 0.8em;
-  }
   #project-cards {
     width: 90%;
   }
