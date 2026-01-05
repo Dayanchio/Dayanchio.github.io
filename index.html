@@ -36,110 +36,113 @@
             <div class="space" aria-hidden="true"></div>
         </div>
     </nav>
-    <section id="home">
-        <h1>Hey I'm Dayanch</h1>
-        <p>I build fast, clean, responsive websites with HTML, CSS, and JavaScript.</p>
-        <div id="cta">
-            <a class="button" href="#projects" id="go-to-projects-btn">View projects</a>
-            <a class="button" href="#contact" id="go-to-contact-btn">Contact</a>
-        </div>
-    </section>
-    <section id="about">
-        <h2>About</h2>
-        <p>I build websites that feel fast, look clean, and don’t get in the user’s way. I enjoy turning rough ideas
-            into simple,
-            usable interfaces.
-            My skillset includes:
-        </p>
-        <ul id="skillset">
-            <li class="skill-icon"><i aria-label="HTML" class="fa-brands fa-html5 fa-6x"></i></li>
-            <li class="skill-icon"><i aria-label="CSS" class="fa-brands fa-css3-alt fa-6x"></i></li>
-            <li class="skill-icon"><i aria-label="Javascript" class="fa-brands fa-square-js fa-6x"></i></li>
-            <li class="skill-icon"><i aria-label="Git" class="fa-brands fa-git-alt fa-6x"></i></li>
-            <li class="skill-icon"><i aria-label="Python" class="fa-brands fa-python fa-6x"></i></li>
-        </ul>
-        <p>...and more</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here you can see some of the things I've built so far(regularly updating):</p>
-        <div id="project-cards">
-            <div class="project-card">
-                <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
-                <div class="description">
-                    <h3 class="project-name">SaaS Marketing Site</h3>
-                    <p class="project-description">HTML • CSS • JS</p>
-                    <div class="project-insight">
-                        <p>Demo</p>
-                        <p>Source</p>
+    <main>
+        <section id="home">
+            <h1>Hey I'm Dayanch</h1>
+            <p>I build fast, clean, responsive websites with HTML, CSS, and JavaScript.</p>
+            <div id="cta">
+                <a class="button" href="#projects" id="go-to-projects-btn">View projects</a>
+                <a class="button" href="#contact" id="go-to-contact-btn">Contact</a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>I build websites that feel fast, look clean, and don’t get in the user’s way. I enjoy turning rough ideas
+                into simple,
+                usable interfaces.
+                My skillset includes:
+            </p>
+            <ul id="skillset">
+                <li class="skill-icon"><i aria-label="HTML" class="fa-brands fa-html5 fa-6x"></i></li>
+                <li class="skill-icon"><i aria-label="CSS" class="fa-brands fa-css3-alt fa-6x"></i></li>
+                <li class="skill-icon"><i aria-label="Javascript" class="fa-brands fa-square-js fa-6x"></i></li>
+                <li class="skill-icon"><i aria-label="Git" class="fa-brands fa-git-alt fa-6x"></i></li>
+                <li class="skill-icon"><i aria-label="Python" class="fa-brands fa-python fa-6x"></i></li>
+            </ul>
+            <p>...and more</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here you can see some of the things I've built so far(regularly updating):</p>
+            <div id="project-cards">
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
+                    <div class="description">
+                        <h3 class="project-name">SaaS Marketing Site</h3>
+                        <p class="project-description">HTML • CSS • JS</p>
+                        <div class="project-insight">
+                            <p>Demo</p>
+                            <p>Source</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
+                    <div class="description">
+                        <h3 class="project-name">Interactive Dashboard</h3>
+                        <p class="project-description">HTML • CSS • JS</p>
+                        <div class="project-insight">
+                            <p>Demo</p>
+                            <p>Source</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
+                    <div class="description">
+                        <h3 class="project-name">E-commerce Product Flow</h3>
+                        <p class="project-description">HTML • CSS • JS</p>
+                        <div class="project-insight">
+                            <p>Demo</p>
+                            <p>Source</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
+                    <div class="description">
+                        <h3 class="project-name">Booking App</h3>
+                        <p class="project-description">HTML • CSS • JS</p>
+                        <div class="project-insight">
+                            <p>Demo</p>
+                            <p>Source</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="project-card">
-                <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
-                <div class="description">
-                    <h3 class="project-name">Interactive Dashboard</h3>
-                    <p class="project-description">HTML • CSS • JS</p>
-                    <div class="project-insight">
-                        <p>Demo</p>
-                        <p>Source</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div id="overlay" hidden></div>
+            <form id="contact-form" hidden>
+                <h3 id="contact-heading">Contact</h3>
+                <div class="modal">
+                    <input id="name" type="text" name="name" placeholder="Name" required>
+                    <input id="email" type="email" name="email" placeholder="Email" required>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    <div class="actions">
+                        <button type="submit" id="submit-btn">Submit</button>
+                        <button type="button" id="close-modal">Close</button>
                     </div>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
-                <div class="description">
-                    <h3 class="project-name">E-commerce Product Flow</h3>
-                    <p class="project-description">HTML • CSS • JS</p>
-                    <div class="project-insight">
-                        <p>Demo</p>
-                        <p>Source</p>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="https://placehold.co/600x400?text=Coming soon..." class="preview">
-                <div class="description">
-                    <h3 class="project-name">Booking App</h3>
-                    <p class="project-description">HTML • CSS • JS</p>
-                    <div class="project-insight">
-                        <p>Demo</p>
-                        <p>Source</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <div id="overlay" hidden></div>
-        <form id="contact-form" hidden>
-            <h3 id="contact-heading">Contact</h3>
-            <div class="modal">
-                <input id="name" type="text" name="name" placeholder="Name" required>
-                <input id="email" type="email" name="email" placeholder="Email" required>
-                <textarea id="message" name="message" placeholder="Message" required></textarea>
-                <div class="actions">
-                    <button type="submit" id="submit-btn">Submit</button>
-                    <button type="button" id="close-modal">Close</button>
-                </div>
-            </div>
 
-        </form>
-        <p>If you are interested in working with me or want to see more of my projects, you can reach out to me by
-            clicking on the button or one of the links below:
-        </p>
-        <button id="contact-btn">Contact now</button>
-        <ul id="contact-links">
-            <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/dayanch-annayarov-527566352/"
-                    target="_blank" rel="noopener">LinkedIn</a></li>
-            <li><i class="fa-brands fa-github"></i><a href="https://github.com/Dayanchio" target="_blank"
-                    rel="noopener">Github</a>
-            </li>
-            <li><i class="fa-brands fa-x-twitter"></i><a href="https://x.com/dayanchio" target="_blank"
-                    rel="noopener">Twitter</a></li>
-        </ul>
-    </section>
+            </form>
+            <p>If you are interested in working with me or want to see more of my projects, you can reach out to me by
+                clicking on the button or one of the links below:
+            </p>
+            <button id="contact-btn">Contact now</button>
+            <ul id="contact-links">
+                <li><i class="fa-brands fa-linkedin"></i><a
+                        href="https://www.linkedin.com/in/dayanch-annayarov-527566352/" target="_blank"
+                        rel="noopener">LinkedIn</a></li>
+                <li><i class="fa-brands fa-github"></i><a href="https://github.com/Dayanchio" target="_blank"
+                        rel="noopener">Github</a>
+                </li>
+                <li><i class="fa-brands fa-x-twitter"></i><a href="https://x.com/dayanchio" target="_blank"
+                        rel="noopener">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
     <footer>
         <p>&copy;Dayanch 2025. All rights reserved.</p>
     </footer>
