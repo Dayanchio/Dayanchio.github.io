@@ -13,7 +13,7 @@
   --shadow: #0c0c0c;
   --header-h: 70px;
   --gap: 12px;
-  --border: 12px;
+  --border: 30px;
 }
 
 html {
@@ -68,7 +68,16 @@ header {
 
 #nav-links {
   display: flex;
-  gap: var(--gap);
+  gap: 30px;
+}
+
+#nav-links a {
+  padding: 10px;
+  border-radius: var(--border);
+}
+
+#nav-links a:hover {
+  background-color: #3b3838;
 }
 
 ul {
@@ -218,7 +227,7 @@ button {
   color: var(--text);
   border: 1px solid var(--accent);
   font-family: inherit;
-  border-radius: 12px;
+  border-radius: var(--border);
   cursor: pointer;
 }
 
